@@ -3,8 +3,8 @@
 import socket
 import sys
 
-IP = socket.gethostbyname(socket.gethostname())
-PORT=54321
+IP = socket.gethostbyname("192.168.167.187")
+PORT=55203
 
 # create socket
 try:
